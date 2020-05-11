@@ -36,6 +36,7 @@ class Owner
         owned_cats << cat
       end
     end
+    owned_cats
   end
   
 end
