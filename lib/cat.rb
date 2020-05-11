@@ -21,4 +21,9 @@ class Cat
     @@all.length
   end
   
+  def cats
+    
+    
+  end
+  
 end
