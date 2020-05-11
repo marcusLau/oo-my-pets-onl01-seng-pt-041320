@@ -29,7 +29,8 @@ class Owner
   end
   
   def cats
-    
+    # returns an array of all cats who have the same owner
+    Cat.all.map do 
   end
   
 end
