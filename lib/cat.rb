@@ -14,4 +14,8 @@ class Cat
     @mood = mood
   end
   
+  def self.all 
+    @@all
+  end
+  
 end
