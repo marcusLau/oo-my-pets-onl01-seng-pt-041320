@@ -20,11 +20,11 @@ class Owner
   end
   
   def self.count
-    @@all.size
+    @@all.length
   end
   
   def self.reset_all
-    @@all = []
+    @@all.clear
   end
   
 end
