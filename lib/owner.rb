@@ -39,4 +39,7 @@ class Owner
     owned_cats
   end
   
+  def dogs
+    
+  
 end
