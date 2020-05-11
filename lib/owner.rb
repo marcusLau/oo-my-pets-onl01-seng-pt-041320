@@ -44,8 +44,9 @@ class Owner
     Dog.all.map do |doge|
       if doge.owner == self
         owned_dogs << doge
-        
-    
+      end
+    end
+    owned_dogs
   end
   
 end
