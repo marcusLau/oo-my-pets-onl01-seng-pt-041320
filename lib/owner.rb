@@ -31,7 +31,7 @@ class Owner
   def cats
     # returns an array of all cats who have the same owner
     owned_cats = []
-    Cat.all.map do |cat}
+    Cat.all.map do |cat|
       if cat.owner == self 
         owned_cats << cat
       end
