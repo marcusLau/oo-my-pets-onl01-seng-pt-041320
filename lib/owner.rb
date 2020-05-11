@@ -40,7 +40,11 @@ class Owner
   end
   
   def dogs
-    
+    owned_dogs = []
+    Dog.all.map do |doge|
+      if doge.owner == self
+        owned_dogs << doge
+        
     
   end
   
