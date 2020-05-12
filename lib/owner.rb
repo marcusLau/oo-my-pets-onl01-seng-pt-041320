@@ -77,7 +77,10 @@ class Owner
       cat.mood = "nervous"
       cat.owner = nil
     end
-    Dog.all.map {|dog| dog.mood = "nervous"}
+    Dog.all.map |dog| 
+      dog.mood = "nervous"
+      dog.owner = nil
+    end
     
     
   end
