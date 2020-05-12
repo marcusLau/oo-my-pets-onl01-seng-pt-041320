@@ -87,34 +87,4 @@ class Owner
     "I have #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)."
   end
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
