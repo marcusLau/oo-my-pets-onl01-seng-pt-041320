@@ -60,7 +60,7 @@ class Owner
   # makes ALL the dog's moods happy
   # iterate thru @pets[:dogs] and change mood
   def walk_dogs
-    @pets[:dogs].each do |doge|
+    Dog.all.map do |doge|
       doge.mood = "happy"
     end
   end
