@@ -87,6 +87,7 @@ class Owner
     
     cat_count = 0 
     dog_count = 0
+    
   end
   
   
