@@ -71,7 +71,10 @@ class Owner
     end
   end
   
-  
+  # sells all the pets which makes their mood nervous
+  def sell_pets 
+    
+  end
   
   
   
