@@ -61,7 +61,8 @@ class Owner
   # iterate thru @pets[:dogs] and change mood
   def walk_dog
     @pets[:dogs].each do |doge|
-      doge.mood
+      doge.mood = "happy"
+    end
   end
 end
 
