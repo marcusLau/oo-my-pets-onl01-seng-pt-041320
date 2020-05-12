@@ -74,8 +74,6 @@ class Owner
   # sells all the pets which makes their mood nervous
   def sell_pets 
     Cat.all.map {|cat| cat.mood = "nervous"}
-    
-    
     Dog.all.map {|dog| dog.mood = "nervous"}
   end
   
